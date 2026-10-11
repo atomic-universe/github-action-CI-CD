@@ -1,7 +1,7 @@
 name: first workflow
 on : 
   issues: 
-    type: [opened, edited, deleted,closed, reopened]
+    types: [opened, edited, deleted,closed, reopened]
 
 jobs: 
   first-job:
