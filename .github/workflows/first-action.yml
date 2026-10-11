@@ -10,5 +10,5 @@ jobs:
       - name: updated-owner
         run: echo "Need your attentain, someone changed in REPO issue section."  
 
-      - name: msg-footer:
+      - name: msg-footer
         run: echo "Done - BYY!"
