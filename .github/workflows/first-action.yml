@@ -1,0 +1,14 @@
+name: first workflow
+on : 
+  issue: 
+    type: [opened, edited, deleted,closed, reopened]
+
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: updated-owner
+        run: echo "Need your attentain, someone changed in REPO issue section."  
+
+      - name: msg-footer:
+        run: echo "Done - BYY!"
