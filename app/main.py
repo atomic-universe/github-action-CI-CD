@@ -1,6 +1,6 @@
 from fastapi import FastAPI, exceptions
-from app.schemas.input_format import InputValue,ResultResponse
 
+from app.schemas.input_format import InputValue, ResultResponse
 
 app = FastAPI(title="GitHub action workflow",version="0.0.1")
 
