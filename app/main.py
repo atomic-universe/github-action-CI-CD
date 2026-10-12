@@ -12,12 +12,12 @@ def home():
         'title':app.title
     }
 
-@app.post('/add',response_model=ResultResponse,tags=['basic arithmetic operations'])
+@app.post('/addd',response_model=ResultResponse,tags=['basic arithmetic operations'])
 def add_values(inp:InputValue):
     ans = inp.val_1+inp.val_2
     return ResultResponse(result=ans)
 
-@app.post('/sub',response_model=ResultResponse,tags=['basic arithmetic operations'])
+@app.post('/subb',response_model=ResultResponse,tags=['basic arithmetic operations'])
 def sub_values(inp:InputValue):
     ans = inp.val_1-inp.val_2
     return ResultResponse(result=ans)
